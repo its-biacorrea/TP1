@@ -11,6 +11,8 @@ public abstract class Animal {
 	    this.idade = idade;
 	  }
 
+	  protected abstract String getNome();
+
 	  public void emitirSom(){
 	    
 	  };
@@ -18,5 +20,7 @@ public abstract class Animal {
 	  @Override
 	  public String toString() {
 	      return "Animal [nome = " + nome + ", idade = " + idade + "]";
-	    }
-	}
+	  }
+}
+
+	

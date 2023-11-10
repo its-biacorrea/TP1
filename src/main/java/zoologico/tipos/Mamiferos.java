@@ -20,4 +20,9 @@ public class Mamiferos extends Animal implements Comportamento{
   public void mover(){
     System.out.println("Olha o " + nome + " andando");
   }
+
+	@Override
+	protected String getNome() {
+		return nome;
+	}
 }

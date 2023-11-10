@@ -20,4 +20,9 @@ public class Repteis extends Animal implements Comportamento{
 	  public void mover(){
 	    System.out.println("Olha o " + nome + " rastejando");
 	  }
+
+		@Override
+		protected String getNome() {
+			return nome;
+		}
 	}

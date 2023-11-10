@@ -14,4 +14,9 @@ public class Anfibios extends Animal{
     public void emitirSom(){
         System.out.println( nome + " está emitindo seu som"); 
     }
+
+	@Override
+	protected String getNome() {
+		return nome;
+	}
 }

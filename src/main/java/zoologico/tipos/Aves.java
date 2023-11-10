@@ -20,4 +20,9 @@ public class Aves extends Animal implements Comportamento{
 	  public void mover(){
 	    System.out.println("Olha a " + nome + " voando");
 	  }
+
+		@Override
+		protected String getNome() {
+			return nome;
+		}
 	}

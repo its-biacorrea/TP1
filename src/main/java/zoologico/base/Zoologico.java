@@ -18,7 +18,10 @@ public class Zoologico {
     public void moverAnimais() {
         for (Animal animal : listaAnimais) {
             if (animal instanceof Comportamento) {
-                ((Comportamento) animal).mover();
+            	String nomeAnimal = animal.getNome();
+            	if (nomeAnimal != null && "Arara Azul".equals(nomeAnimal)) {
+                    ((Comportamento) animal).mover();
+                }
             }
         }
     }

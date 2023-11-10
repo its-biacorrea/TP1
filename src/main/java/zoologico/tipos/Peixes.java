@@ -15,4 +15,9 @@ public class Peixes extends Animal {
         System.out.println( nome + " está emitindo seu som"); 
     }
 
+	@Override
+	protected String getNome() {
+		return nome;
+	}
+
 }

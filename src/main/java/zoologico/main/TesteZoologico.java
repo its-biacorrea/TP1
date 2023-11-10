@@ -10,7 +10,7 @@ import zoologico.tipos.Repteis;
 public class TesteZoologico {
 	  public static void main(String[] args) {
 	    Anfibios anfibio = new Anfibios("Sapo", 6);
-	    Aves ave = new Aves("Arara Azul", 25);
+	    Aves ave = new Aves("Arara", 25);
 	    Mamiferos mamifero = new Mamiferos("Elefante", 35);
 	    Peixes peixe = new Peixes("Peixe palhaço ", 5);
 	    Repteis reptil = new Repteis("Jararaca", 5);
@@ -33,5 +33,6 @@ public class TesteZoologico {
 	    
 	    zoologico.moverAnimais();
 	    
+	    zoologico.listarAnimais();
 	  }
 	}
